@@ -1,0 +1,60 @@
+  //void Them()
+        //{
+        //    {
+        //        DOCGIA dg = new DOCGIA()
+        //        {
+        //            MaDocGia = Convert.ToInt32(txtmadocgia.Text),
+        //            HoTen = txthotendg.Text,
+        //            GioiTinh = cbgioitinhdg.Text,
+        //            NamSinh = Convert.ToDateTime(dtnamsinhdg.Text)
+                  
+        //        };
+        //        dl.DOCGIAs.Add(dg);
+        //        dl.SaveChanges();
+        //     }
+        //}
+
+
+        /*void binding()
+        
+        {
+            txtmadocgia.ReadOnly = true;
+            txtmadocgia.DataBindings.Add.(new Binding("Text", dtgvdocgia.DataSource, "MaDocGia"));
+            txthotendg.DataBindings.Add(new Binding("Text", dtgvdocgia.DataSource, "HoTen"));
+            cbgioitinhdg.DataBindings.Add(new Binding("Text", dtgvdocgia.DataSource, "GioiTinh"));
+            dtnamsinhdg.DataBindings.Add(new Binding("Text", dtgvdocgia.DataSource, "NamSinh"));
+        }*/
+        //void Timkiem()
+        //{
+           
+        //}
+      
+      
+
+        //int id = Convert.ToInt32(txtmadocgia.Text.ToString());
+        //DOCGIA dg = dl.DOCGIAs.Where(p => p.MaDocGia == id).SingleOrDefault();
+        //dl.DOCGIAs.Remove(dg);
+        //dl.SaveChanges();
+
+
+
+
+
+
+
+
+
+
+        //void TaiDuLieu()
+        //{
+
+        //    var result = from c in dl.DOCGIAs
+        //                 select new
+        //                 {
+        //                     MaDocGia = c.MaDocGia.ToString(),
+        //                     HoTen = c.HoTen,
+        //                     GioiTinh = c.GioiTinh,
+        //                     NamSinh = c.NamSinh.ToString()
+        //                 };
+        //    dtgvdocgia.DataSource = result.ToList();
+        //}

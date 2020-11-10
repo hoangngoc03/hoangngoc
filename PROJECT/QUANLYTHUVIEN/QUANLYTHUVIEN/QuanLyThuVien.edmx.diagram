@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="517ecb018c0b4613a7248baf0896295a" Name="Diagram1" ZoomLevel="64">
+        <EntityTypeShape EntityType="QuanLyThuVienModel.ACCOUNT" Width="1.5" PointX="3" PointY="5.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="QuanLyThuVienModel.DOCGIA" Width="1.5" PointX="5.25" PointY="5.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="QuanLyThuVienModel.NHANVIEN" Width="1.5" PointX="0.75" PointY="5.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="QuanLyThuVienModel.PHIEUMUON" Width="1.5" PointX="3" PointY="1.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="QuanLyThuVienModel.PHIEUTRA" Width="1.5" PointX="5.25" PointY="1.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="QuanLyThuVienModel.QLMUONTRA" Width="1.5" PointX="7.5" PointY="1.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="QuanLyThuVienModel.SACH" Width="1.5" PointX="0.75" PointY="1" IsExpanded="true" />
+        <AssociationConnector Association="QuanLyThuVienModel.FK_ACCOUNT_NHANVIEN" ManuallyRouted="false" />
+        <AssociationConnector Association="QuanLyThuVienModel.FK_QLMUONTRA_DOCGIA" ManuallyRouted="false" />
+        <AssociationConnector Association="QuanLyThuVienModel.FK_PHIEUMUON_NHANVIEN" ManuallyRouted="false" />
+        <AssociationConnector Association="QuanLyThuVienModel.FK_PHIEUMUON_SACH" ManuallyRouted="false" />
+        <AssociationConnector Association="QuanLyThuVienModel.FK_PHIEUTRA_PHIEUMUON" ManuallyRouted="false" />
+        <AssociationConnector Association="QuanLyThuVienModel.FK_QLMUONTRA_PHIEUMUON" ManuallyRouted="false" />
+        <AssociationConnector Association="QuanLyThuVienModel.FK_PHIEUTRA_SACH" ManuallyRouted="false" />
+        <AssociationConnector Association="QuanLyThuVienModel.FK_QLMUONTRA_PHIEUTRA" ManuallyRouted="false" />
+        <AssociationConnector Association="QuanLyThuVienModel.FK_QLMUONTRA_SACH" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>

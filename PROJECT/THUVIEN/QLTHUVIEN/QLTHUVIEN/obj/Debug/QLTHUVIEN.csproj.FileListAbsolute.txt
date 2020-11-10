@@ -1,0 +1,17 @@
+C:\Users\NgocPC\source\repos\QLTHUVIEN\QLTHUVIEN\bin\Debug\QLTHUVIEN.exe.config
+C:\Users\NgocPC\source\repos\QLTHUVIEN\QLTHUVIEN\bin\Debug\QLTHUVIEN.exe
+C:\Users\NgocPC\source\repos\QLTHUVIEN\QLTHUVIEN\bin\Debug\QLTHUVIEN.pdb
+C:\Users\NgocPC\source\repos\QLTHUVIEN\QLTHUVIEN\obj\Debug\QLTHUVIEN.csprojAssemblyReference.cache
+C:\Users\NgocPC\source\repos\QLTHUVIEN\QLTHUVIEN\obj\Debug\QLTHUVIEN.frmDangNhap.resources
+C:\Users\NgocPC\source\repos\QLTHUVIEN\QLTHUVIEN\obj\Debug\QLTHUVIEN.Properties.Resources.resources
+C:\Users\NgocPC\source\repos\QLTHUVIEN\QLTHUVIEN\obj\Debug\QLTHUVIEN.csproj.GenerateResource.cache
+C:\Users\NgocPC\source\repos\QLTHUVIEN\QLTHUVIEN\obj\Debug\QLTHUVIEN.csproj.CoreCompileInputs.cache
+C:\Users\NgocPC\source\repos\QLTHUVIEN\QLTHUVIEN\obj\Debug\QLTHUVIEN.exe
+C:\Users\NgocPC\source\repos\QLTHUVIEN\QLTHUVIEN\obj\Debug\QLTHUVIEN.pdb
+C:\Users\NgocPC\source\repos\QLTHUVIEN\QLTHUVIEN\obj\Debug\QLTHUVIEN.QLy.resources
+C:\Users\NgocPC\source\repos\QLTHUVIEN\QLTHUVIEN\obj\Debug\QLTHUVIEN.QLSach.resources
+C:\Users\NgocPC\source\repos\QLTHUVIEN\QLTHUVIEN\obj\Debug\QLTHUVIEN.QLDocGia.resources
+C:\Users\NgocPC\source\repos\QLTHUVIEN\QLTHUVIEN\obj\Debug\QLTHUVIEN.QLNhanVien.resources
+C:\Users\NgocPC\source\repos\QLTHUVIEN\QLTHUVIEN\obj\Debug\QLTHUVIEN.QLPhieuMuon.resources
+C:\Users\NgocPC\source\repos\QLTHUVIEN\QLTHUVIEN\obj\Debug\QLTHUVIEN.QLPhieuTra.resources
+C:\Users\NgocPC\source\repos\QLTHUVIEN\QLTHUVIEN\obj\Debug\QLTHUVIEN.QLMuonTra.resources

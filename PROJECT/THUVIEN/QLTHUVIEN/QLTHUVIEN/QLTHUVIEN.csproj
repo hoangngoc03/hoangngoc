@@ -1,0 +1,235 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{C5E78FB5-A507-4A14-A9A8-8CF522B86A03}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>QLTHUVIEN</RootNamespace>
+    <AssemblyName>QLTHUVIEN</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Account.cs" />
+    <Compile Include="DangNhap.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DangNhap.Designer.cs">
+      <DependentUpon>DangNhap.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DataProvider.cs" />
+    <Compile Include="DataSet1.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DataSet1.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Models\ModDocGia.cs" />
+    <Compile Include="Models\ModMuonTra.cs" />
+    <Compile Include="Models\ModNhanVien.cs" />
+    <Compile Include="Models\ModPhieuMuon.cs" />
+    <Compile Include="Models\ModPhieuTra.cs" />
+    <Compile Include="Models\ModSach.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="QLDocGia.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="QLDocGia.Designer.cs">
+      <DependentUpon>QLDocGia.cs</DependentUpon>
+    </Compile>
+    <Compile Include="QLMuonTra.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="QLMuonTra.Designer.cs">
+      <DependentUpon>QLMuonTra.cs</DependentUpon>
+    </Compile>
+    <Compile Include="QLNhanVien.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="QLNhanVien.Designer.cs">
+      <DependentUpon>QLNhanVien.cs</DependentUpon>
+    </Compile>
+    <Compile Include="QLPhieuMuon.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="QLPhieuMuon.Designer.cs">
+      <DependentUpon>QLPhieuMuon.cs</DependentUpon>
+    </Compile>
+    <Compile Include="QLPhieuTra.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="QLPhieuTra.Designer.cs">
+      <DependentUpon>QLPhieuTra.cs</DependentUpon>
+    </Compile>
+    <Compile Include="QLSach.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="QLSach.Designer.cs">
+      <DependentUpon>QLSach.cs</DependentUpon>
+    </Compile>
+    <Compile Include="QLy.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="QLy.Designer.cs">
+      <DependentUpon>QLy.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="DangNhap.resx">
+      <DependentUpon>DangNhap.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="QLDocGia.resx">
+      <DependentUpon>QLDocGia.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="QLMuonTra.resx">
+      <DependentUpon>QLMuonTra.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="QLNhanVien.resx">
+      <DependentUpon>QLNhanVien.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="QLPhieuMuon.resx">
+      <DependentUpon>QLPhieuMuon.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="QLPhieuTra.resx">
+      <DependentUpon>QLPhieuTra.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="QLSach.resx">
+      <DependentUpon>QLSach.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="QLy.resx">
+      <DependentUpon>QLy.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="DataSet1.xsc">
+      <DependentUpon>DataSet1.xsd</DependentUpon>
+    </None>
+    <None Include="DataSet1.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DataSet1.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="DataSet1.xss">
+      <DependentUpon>DataSet1.xsd</DependentUpon>
+    </None>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\user.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\user1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\backGroundImgURL.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\khoa1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\50-anh-background-dep-nhat-1.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\0afd2951b10413352a363ea51b4606ac.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\user11.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\user2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\login.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\red-x-mark-transparent-background-3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\sachbe.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\red-x-mark-transparent-background-31.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cong.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cong1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\return book png.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\return-book-1-560407.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\save-icon--1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\return-book-1-5604071.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\xoa.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\thungrac.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\search.png" />
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
